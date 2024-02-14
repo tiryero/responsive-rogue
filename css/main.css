@@ -55,9 +55,9 @@ header {
 }
 
 header h1 {
-	/*margin: 0;*/
-	padding: 38px 0 /*20px 0*/;
-	/*border-bottom: 3px solid #77a466;*/
+	margin: 0;
+	padding: 38px 0 20px 0;
+	border-bottom: 3px solid #77a466;
 	width: 100%;
 }
 
@@ -66,18 +66,20 @@ header h1 span {
 }
 
 header nav {
-	padding: 46px 0;
+	padding: 20px 0;
 }
 
 header nav ul {
+	margin: 0;
 	padding: 0;
+	list-style: none;
 }
 
 header nav ul li {
 	font-size: .875rem;
 	font-weight: 700;
 	text-transform: uppercase;
-	padding: 0 10px;
+	padding: 10px 0;
 	width: 100%;
 }
 
@@ -127,8 +129,8 @@ header nav ul li a {
 .section-two {
 	/*width: 42%;*/
 	width: 100%;
-	border-left: 5px solid #EEE;
-	border-right: 5px solid #EEE;
+	border-top: 5px solid #EEE;
+	border-bottom: 5px solid #EEE;
 }
 
 .section-three {
@@ -137,7 +139,7 @@ header nav ul li a {
 }
 
 .bottom-section h3 {
-	/*margin: 30px 0;*/
+	margin: 30px 0;
 }
 
 .menu-list {
@@ -156,8 +158,8 @@ header nav ul li a {
 footer {
 	display: flex;
 	justify-content: center;
-	text-align: center;
-	/*margin-top: 8px;*/
+	
+	margin-top: 8px;
 }
 
 footer span {
